@@ -1,0 +1,10 @@
+Discente: Anna Pereira Lima Bomfim
+TI:441
+
+Atividade sobre o Domain Name System (DNS).
+01) Para instalar o  APACHE2 - $sudo apt-get install apache2.
+02) Para clonar a página da web do google "www.google.com" - $sudo wget -S https://www.google.com.br/.
+03) $sudo /etc/init.d/apache2 restart).
+04) $sudo nano /etc/hosts -Modificar: adicionar no arquivo - IP_Maquina google.com, para referenciar a busca "google.com" 
+ao IP da outra máquina. 
+05)$sudo nano /etc/resolv.conf - Modificar: nameserver - nameserver: ip_maquina.
